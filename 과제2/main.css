@@ -1,0 +1,66 @@
+h1{
+    margin:0;
+    color:white;
+    background-color:green;
+    height:140px;
+    text-align:center;
+    font-size:100px;
+}
+span:hover{
+    font-size:50px;
+    transition:2s;
+}
+div img:hover{
+    width:700px;
+    height:700px;
+    transition:2s;
+}
+#menu{
+    height:50px;
+    width:900px;
+}
+#menu ul li{
+    list-style:none;
+    color:red;
+    background-color:black;
+    float:left;
+    line-height:50px;
+    vertical-align:middle;
+    text-align:center;
+}
+#menu .menuLink{
+    margin:0;
+    text-decoration:none;
+    color:red; 
+    display:block;
+    width: 150px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+#menu .menuLink:hover{
+    color:white;
+    background-color:green;
+}
+a img{
+    width:800px;
+    height:400px;
+}
+#explain{
+    color:blue;
+    font-size:100px;
+    position:absolute;
+    opacity:0;
+}
+#explain1{
+    opacity:0;
+    position:absolute;
+}
+a:hover #explain{
+    opacity:1;
+    transition:2s;
+}
+a:hover #explain1{
+    opacity:1;
+    transition:4s;
+}
