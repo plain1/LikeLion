@@ -1,7 +1,7 @@
 import requests
 import json
 
-api = "https://api.openweathermap.org/data/2.5/weather?lat=36.6372&lon=127.4897&appid=74d770c4512ed5c7d54786102a2701fe&units=metric"
+api = "https://api.openweathermap.org/data/2.5/weather?lat=36.6372&lon=127.4897&appid={APIKey}"
 
 result = requests.get(api)
 print(result.text)
